@@ -90,24 +90,25 @@
         <p></p>
       </td>
     </tr>
-    <tr onmouseout="nerfcasting_stop()" onmouseover="nerfcasting_start()">
+
+    <tr onmouseout="bog_stop()" onmouseover="bog_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='nerfcasting_image'><video  width=100% muted autoplay loop>
-          <source src="images/nerfcasting.mp4" type="video/mp4">
+          <div class="two" id='bog_image'><video  width=100% muted autoplay loop>
+          <source src="images/bog.jpg" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/nerfcasting.jpg' width=100%>
+          <img src='images/bog.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function nerfcasting_start() {
-            document.getElementById('nerfcasting_image').style.opacity = "1";
+          function bog_start() {
+            document.getElementById('bog_image').style.opacity = "1";
           }
 
-          function nerfcasting_stop() {
-            document.getElementById('nerfcasting_image').style.opacity = "0";
+          function bog_stop() {
+            document.getElementById('bog_image').style.opacity = "0";
           }
-          nerfcasting_stop()
+          bog_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
